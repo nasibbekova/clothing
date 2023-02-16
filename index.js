@@ -1,5 +1,5 @@
 // point a
-let main = document.createElement('main') 
+let div = document.createElement('div') 
 let box = document.createElement('div')
 let image = document.createElement('img')
 let boxes = document.createElement('div')
@@ -40,9 +40,9 @@ spanThree.innerHTML = '150'
 
 
 // point c
-main.append('box, boxes')
+div.append('box, boxes')
 box.append('image')
 image.append('img')
 boxes.append(h2, p, button, logo)
 logo.append('img, span')
-document.body.prepend('main')
+document.body.prepend('div')
